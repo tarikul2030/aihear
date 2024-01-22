@@ -6,7 +6,7 @@ import pandas as pd
 app = Flask(__name__)
 
 # Load the machine learning model
-model = pickle.load(open('heartmodel.sav', 'rb'))
+model = pickle.load(open('heart.pkl', 'rb'))
 
 # Define API endpoints
 
