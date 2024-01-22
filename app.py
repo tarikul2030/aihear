@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify
 import pickle
-from model import X_test
 import pandas as pd
 
 # Define the Flask application
